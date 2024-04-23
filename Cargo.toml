@@ -1,0 +1,9 @@
+[package]
+name = "neural_network"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nalgebra = { version = "0.32.5", features = ["rand"] }
+num-traits = "0.2.18"
+rand = "0.8.5"
